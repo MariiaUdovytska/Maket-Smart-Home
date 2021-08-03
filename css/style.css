@@ -74,3 +74,54 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.wrapper {
+  overflow: hidden;
+  min-width: 100%;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.allbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.leftb {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.leftb__image {
+  background-image: url(../img/block_1/bg_left.png);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.leftb__column {
+  padding: 61px 15px 57px;
+  margin-left: 55px;
+}
+
+.rightb {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 547px;
+          flex: 0 0 547px;
+}
