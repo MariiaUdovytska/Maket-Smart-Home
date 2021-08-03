@@ -20,6 +20,7 @@ body{
 }
 
 .containerM {
+	height: 100%;
 }
 
 .allbody {
@@ -29,7 +30,7 @@ body{
 }
 
 .leftb {
-flex: 1 1 auto;
+	flex: 1 1 auto;
 
 		&__image {
 			background-image: url(../img/block_1/bg_left.png);
@@ -41,24 +42,33 @@ flex: 1 1 auto;
 			height: 100%;
 		}
 
+		&__column {
+			padding: 61px 15px 57px;
+			margin-left: 55px;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+
+		&__logo {
+			flex: 0 0 auto;
+		}
+
+		&__column-text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex: 1 1 auto;
+		}
+
 		&_textup {
 		}
 
 		&_textdown {
 		}
 
-		&__image {
-		}
-
-		&__column {
-			padding: 61px 15px 57px;
-			margin-left: 55px;
-		}
-
-		&__column-text {
-		}
-
 		&__column-play {
+			flex: 0 0 auto;
 		}
 }
 
