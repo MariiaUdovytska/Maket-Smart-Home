@@ -221,3 +221,47 @@ body {
   background-color: #242e42;
   height: 100%;
 }
+
+.rightb__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 130px 0px 48px 0px;
+  margin: auto;
+  text-align: center;
+  width: 330px;
+  height: 100%;
+}
+
+.rightb__column-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  height: 100%;
+}
+
+.rightb__column-content a {
+  display: block;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #869aac;
+  margin-top: 75px;
+}
+
+.rightb__column-title {
+  margin: 68px auto;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.rightb__column-footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}

@@ -108,6 +108,9 @@ body{
 
 
 
+
+
+
 .rightb {
 	flex: 0 0 547px;
 	height: 100%;
@@ -116,14 +119,58 @@ body{
 		background-color:#242e42;
 		height: 100%;
 	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		padding: 130px 0px 48px 0px;
+		margin: auto;
+		text-align: center;
+		width: 330px;
+		height: 100%;
+
+	}
+
+	&__column-content {
+		flex: 0 0 auto;
+		height: 100%;
+		a{
+			display: block;
+			font-size: 12px;
+			line-height: 1.2;
+			font-weight: 400;
+			color: #869aac;
+			margin-top: 75px;
+		}
+	}
+
+	&__column-logo {
+	}
+
+	&__column-title {
+		margin: 68px auto;
+		font-size: 30px;
+		line-height: 1.2;
+		font-weight: 300;
+	}
+
+	&__column-footer {
+		flex: 0 0 auto;
+	}
+
+	&__column-text {
+	}
+
+	&__column-link {
+	}
+}
+.text-white {
 }
 .mb-3 {
 }
 .form-label {
 }
 .form-control {
-}
-.form-text {
 }
 .form-check {
 }
@@ -135,8 +182,3 @@ body{
 }
 .btn-primary {
 }
-
-
-
-
-
