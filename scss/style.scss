@@ -110,6 +110,12 @@ body{
 
 .rightb {
 	flex: 0 0 547px;
+	height: 100%;
+
+	&__bg {
+		background-color:#242e42;
+		height: 100%;
+	}
 }
 .mb-3 {
 }
@@ -129,3 +135,8 @@ body{
 }
 .btn-primary {
 }
+
+
+
+
+
