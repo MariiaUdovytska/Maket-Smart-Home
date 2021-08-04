@@ -30,7 +30,7 @@ body{
 }
 
 .leftb {
-	flex: 1 1 auto;
+	flex: 1 1 62.1%;
 
 		&__image {
 			background-image: url(../img/block_1/bg_left.png);
@@ -112,7 +112,7 @@ body{
 
 
 .rightb {
-	flex: 0 0 547px;
+	flex: 0 0 37.9%;
 	height: 100%;
 
 	&__bg {
@@ -123,19 +123,24 @@ body{
 	&__column {
 		display: flex;
 		flex-direction: column;
-		padding: 130px 0px 48px 0px;
 		margin: auto;
-		text-align: center;
-		width: 330px;
+		width: 60%;
 		height: 100%;
 
 	}
 
+	&__column-logo {
+		flex: 0 0 30%;
+		text-align: center;
+		left: 0;
+		top: 50%;
+	}
+
 	&__column-content {
-		flex: 0 0 auto;
-		height: 100%;
+		flex: 1 1 auto;
 		a{
 			display: block;
+			text-align: center;
 			font-size: 12px;
 			line-height: 1.2;
 			font-weight: 400;
@@ -144,18 +149,17 @@ body{
 		}
 	}
 
-	&__column-logo {
-	}
-
 	&__column-title {
-		margin: 68px auto;
+		margin-bottom: 60px;
 		font-size: 30px;
 		line-height: 1.2;
 		font-weight: 300;
+		text-align: center;
 	}
 
 	&__column-footer {
-		flex: 0 0 auto;
+		flex: 0 0 6.4%;
+		text-align: center;
 	}
 
 	&__column-text {
