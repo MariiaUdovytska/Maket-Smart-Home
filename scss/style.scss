@@ -112,7 +112,7 @@ body{
 
 
 .rightb {
-	flex: 0 0 37.9%;
+	flex: 1 1 37.9%;
 	height: 100%;
 
 	&__bg {
@@ -177,11 +177,22 @@ body{
 	&__column-link {
 	}
 }
+
+
+
+
+// Form Bootstrap 
 .text-white {
 }
 .mb-3 {
 }
 .form-label {
+	span{
+		font-size: 17px;
+		line-height: 1.2;
+		font-weight: 300;
+		color: #ffffff;
+	}
 }
 .form-control {
 }
@@ -192,6 +203,13 @@ body{
 .form-check-label {
 }
 .btn {
+	span{
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
 }
 .btn-primary {
 }

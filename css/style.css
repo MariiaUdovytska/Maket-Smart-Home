@@ -211,9 +211,9 @@ body {
 }
 
 .rightb {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 37.9%;
-          flex: 0 0 37.9%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 37.9%;
+          flex: 1 1 37.9%;
   height: 100%;
 }
 
@@ -292,4 +292,19 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: #869aac;
+}
+
+.form-label span {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.btn span {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
 }
