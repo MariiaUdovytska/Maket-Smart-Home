@@ -313,8 +313,18 @@ body {
   text-align: center;
 }
 
+.rightb__column-subtitle {
+  text-align: center;
+  width: 255px;
+  margin: -16px auto 63px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #869aac;
+}
+
 .rightb__column-footer {
-  height: 50px;
+  height: 40px;
   text-align: center;
   font-size: 12px;
   line-height: 1.2;
