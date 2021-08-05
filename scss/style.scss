@@ -32,6 +32,10 @@ body{
 .leftb {
 	flex: 1 1 62.1%;
 
+	@media (max-width: 940px) {
+		display: none;
+	}
+
 		&__image {
 			background-image: url(../img/block_1/bg_left.png);
 			background-position: center;
@@ -112,8 +116,15 @@ body{
 
 
 .rightb {
-	flex: 1 1 37.9%;
+	flex: 0 0 37.9%;
 	height: 100%;
+
+	@media (max-width: 1090px) {
+		flex: 0 0 426px;
+	}
+	@media (max-width: 940px) {
+		flex: 0 1 100%;
+	}
 
 	&__bg {
 		background-color:#242e42;
@@ -195,6 +206,12 @@ body{
 	}
 }
 .form-control {
+	background-color:#20293c !important;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #1f8efa !important;
+	border: 1px solid #2f3b54;
 }
 .form-check {
 }
