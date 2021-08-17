@@ -267,8 +267,8 @@ body {
 
 .rightb__column-logo {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,7 +286,8 @@ body {
 }
 
 .rightb__column-logo img {
-  margin-top: 74px;
+  margin-top: 130px;
+  margin-bottom: 68px;
 }
 
 .rightb__column-content {
@@ -305,8 +306,11 @@ body {
   margin-top: 75px;
 }
 
-.rightb__column-signup a {
-  text-align: left;
+.rightb__column-signup {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #869aac;
   margin-top: 20px;
 }
 
