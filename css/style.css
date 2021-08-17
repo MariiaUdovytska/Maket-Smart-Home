@@ -305,6 +305,11 @@ body {
   margin-top: 75px;
 }
 
+.rightb__column-signup a {
+  text-align: left;
+  margin-top: 20px;
+}
+
 .rightb__column-title {
   margin-bottom: 60px;
   font-size: 30px;
